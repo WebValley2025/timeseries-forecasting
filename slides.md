@@ -51,11 +51,13 @@ transition: slide-up
 <!-- Is this time series data? It seems to have timestamps that correspond to values. It has some periodicity, has some outliers. Sure, right now, it isn't presented to you as a graph, but there's nothing stopping your from converting it to one. LLMs represent text as vectors, and vectors are just datapoints in higher dimensional spaces, so why not? -->
 
 ---
-transition: slide-up
+transition: slide-right
 ---
 
 <img class="mx-auto" src="./assets/gitlab_stats.png">
 
+---
+transition: slide-up
 ---
 
 <SlidevVideo class="mx-auto" width="500" controls>

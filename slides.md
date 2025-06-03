@@ -35,8 +35,8 @@ With this knowledge, I will turn you into the mythical 1x developer. It also has
 
 
 ---
-transition: slide-up
 layout: center
+transition: slide-left
 ---
 
 <img class="mx-auto" width="500" src="./assets/fbk_internet.png">
@@ -45,9 +45,30 @@ layout: center
 ---
 layout: default
 src: ./pages/docker_logs.md
+transition: slide-up
 ---
 
 <!-- Is this time series data? It seems to have timestamps that correspond to values. It has some periodicity, has some outliers. Sure, right now, it isn't presented to you as a graph, but there's nothing stopping your from converting it to one. LLMs represent text as vectors, and vectors are just datapoints in higher dimensional spaces, so why not? -->
+
+---
+transition: slide-up
+---
+
+<img class="mx-auto" src="./assets/gitlab_stats.png">
+
+---
+
+<SlidevVideo class="mx-auto" width="500" controls>
+  <!-- Anything that can go in an HTML video element. -->
+  <source src="./assets/weather_android.mp4" type="video/mp4" />
+  <p>
+    Your browser does not support videos. :(
+  </p>
+</SlidevVideo>
+
+---
+
+<img class="mx-auto" width="500" src="./assets/windy.png">
 
 ---
 layout: center

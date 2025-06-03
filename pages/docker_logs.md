@@ -1,4 +1,4 @@
-```bash {*}{maxHeight:'400px'}
+```bash {*}{maxHeight:'450px'}
 2025-06-03 13:33:26.619 | INFO     | __main__:main:59 - Checking for new data.
 2025-06-03 13:33:34.829 | INFO     | __main__:main:63 - Data is newer. Continuing.
 2025-06-03 13:33:36.298 | INFO     | __main__:download_data:167 - Downloaded the Italian data.

@@ -98,6 +98,41 @@ Finally, as the main topic for this school is weather, let's take a look at weat
 
 ---
 layout: center
+---
+
+## What can you do?
+
+Forecasting
+
+<img class="mx-auto bg-white" width="400" src="./assets/forecasting.svg">
+
+Anomaly detection
+
+<img class="mx-auto bg-white" width="400" src="./assets/anomaly_detection_ecg.svg">
+
+<!--
+Now that you know what a time series is, what can you do with them? We're mainly going to focus on forecasting, that is, predicting what's going to happen in the future given past data. You can also do anomaly detection, which is trying to figure out when a part of a series doesn't fit in with the rest. This could be useful, for example, for removing outliers from your dataset.
+
+-->
+
+
+---
+layout: center
+---
+
+Pattern detection
+
+<img class="mx-auto bg-white" width="500" src="./assets/pattern_detection.svg">
+
+Change point detection
+
+<img class="mx-auto bg-white" width="500" src="./assets/changepoint_detection.svg">
+
+<!--
+You can also do other stuff, like detecting patterns. If we go back to my calendar heatmap, you could easily tell that I only worked during the weekdays, and never during the weekend. That's a consistent pattern. There's also change point detection, where the properties of the time series change abruptly. Continuing with the heatmap, you can tell when I go on holiday because my activity suddenly drops to zero, then resumes again when I'm back.
+-->
+---
+layout: center
 class: text-center
 ---
 

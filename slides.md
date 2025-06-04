@@ -13,12 +13,14 @@ mdc: true
 
 ### Rishabh Wanjari
 
-<br>
-
 ##### 20/06/2025
 
 <!--
-Welcome to my talk! Hopefully it shouldn't take too long, and we can get to the interesting stuff as fast as possible.
+Before we begin, some **please** tell me they recognize this background so I feel validated.
+
+Welcome to your introduction to time series forecasting! I'm going to be filling in for a collegue, as this isn't my area of expertise, but hopefully I can cover enough of the basics.
+
+Let's start by talking about what a time series is, or rather, what it can be.
 -->
 
 ---
@@ -29,8 +31,8 @@ transition: slide-up
 
 <img class="mx-auto" width="700" src="./assets/cpu_usage.png">
 <!--
-This is just a collection of tips, tricks and tools that on their own would be too small to mention. The sum of the total is greater than it's parts, as the saying goes.
-With this knowledge, I will turn you into the mythical 1x developer. It also has no mention of AI, well, except this one. And the sparkles don't count. Another saying, is that, good things come in threes, so let's move on to the next slide. lol. next slide.
+Is this rainbow coloured atrocity a time series?
+The x-axis isn't labelled, but it is. As the title says, it depicts CPU usage. While we're looking at the axes, what does it mean to use two thousand percent of your CPU? Is this a good representation of the data, or is there a better way? I will let you decide that.
 -->
 
 
@@ -41,6 +43,13 @@ transition: slide-left
 
 <img class="mx-auto" width="500" src="./assets/fbk_internet.png">
 
+<div v-click>
+<tabler-arrow-left class="text-3xl text-red-400 mx-2 absolute top-31.5 left-146" />
+<tabler-arrow-left class="text-3xl text-red-400 mx-2 absolute top-65.5 left-147" />
+<tabler-arrow-left class="text-3xl text-red-400 mx-2 absolute top-103.5 left-146.5" />
+</div>
+
+<!--  -->
 
 ---
 layout: default
@@ -61,7 +70,6 @@ transition: slide-up
 ---
 
 <SlidevVideo class="mx-auto" width="500" controls>
-  <!-- Anything that can go in an HTML video element. -->
   <source src="./assets/weather_android.mp4" type="video/mp4" />
   <p>
     Your browser does not support videos. :(

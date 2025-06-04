@@ -207,3 +207,7 @@ ERROR 1: libpng: Read Error
 2025-06-03 14:14:47.526 | INFO     | __main__:main:59 - Checking for new data.
 2025-06-03 14:14:55.326 | INFO     | __main__:main:66 - No new data. Waiting for 60 seconds.
 ```
+
+<!-- Now, this is an intriguing example. Is this time series data? It seems to have timestamps that correspond to values. It has some periodicity, has some outliers. Sure, right now, it isn't presented to you as a graph, but there's nothing stopping your from converting it to one. LLMs represent text as vectors, and vectors are just datapoints in higher dimensional spaces, so why not? You could also classify each line based on the type of info it provides and plot that.
+Although for most practical purposes, people wouldn't really consider this to be time series data. Which in my opinion, is quite sad.
+-->

@@ -60,10 +60,6 @@ src: ./pages/docker_logs.md
 transition: slide-up
 ---
 
-<!-- Now, this is an intriguing example. Is this time series data? It seems to have timestamps that correspond to values. It has some periodicity, has some outliers. Sure, right now, it isn't presented to you as a graph, but there's nothing stopping your from converting it to one. LLMs represent text as vectors, and vectors are just datapoints in higher dimensional spaces, so why not? You could also classify each line based on the type of info it provides and plot that.
-Although for most practical purposes, people wouldn't really consider this to be time series data. Which in my opinion, is quite sad.
--->
-
 ---
 transition: slide-right
 ---
@@ -74,6 +70,7 @@ transition: slide-right
 This is my contributions graph on GitLab, which we use at FBK to manage our code and projects. You can find the same thing on other people's GitHub profiles. This, is also a time series. But instead of being a line on a graph, it is represented as a calendar heatmap. Here, the intensity of the color corresponds to the number of contributions made on that day.
 You can clearly see the periods of the year when I went on holiday.
 But why would someone choose to represent data like this instead of plotting it as a graph normally?
+Also put a link to https://github-painter.vercel.app maybe.
 -->
 
 ---

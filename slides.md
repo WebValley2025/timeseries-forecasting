@@ -181,6 +181,10 @@ You can also do other stuff, like detecting patterns. If we go back to my calend
 https://github.com/DataForScience/Timeseries
 </div>
 
+<!--
+I couldn't do it any better, so I stole this slide. This shows three ways a time series can behave. The angled bracket here just means the average. Of course, the way you classify the series depends on the time scale you look at. For example, on a small enough scale, a seasonal series may look like it has a trend of going either up or down.
+-->
+
 ---
 
 ## Stationarity
@@ -193,6 +197,10 @@ The first step of any analysis is to transform the series to make it stationary.
 https://wandb.ai/iamleonie/A-Gentle-Introduction-to-Time-Series-Analysis-Forecasting/reports/A-gentle-introduction-to-time-series-analysis-forecasting--VmlldzoxMDg5NDMxMw
 </div>
 
+<!--
+The most important of the three is stationarity. A lot of models assume that a series is stationary. When the future is similar to the past, it is easier to forecast. If a series isn't stationary, you can always transform it until it is. So, with that, let's move to the Jupyter notebook and see how we can do this irl.
+-->
+
 ---
 layout: center
 class: text-center
@@ -200,6 +208,6 @@ class: text-center
 
 # Learn More
 
-[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/resources/showcases)
+[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev)
 
 <PoweredBySlidev mt-10 />

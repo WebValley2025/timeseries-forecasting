@@ -1,0 +1,11 @@
+[project]
+name = "code"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "darts>=0.35.0",
+    "plotly>=6.1.2",
+    "polars>=1.30.0",
+]

@@ -4,14 +4,13 @@
   "private": true,
   "scripts": {
     "build": "slidev build",
-    "dev": "slidev --open",
+    "dev": "slidev",
     "export": "slidev export"
   },
   "dependencies": {
     "@iconify-json/tabler": "^1.2.18",
     "@slidev/cli": "^51.8.1",
     "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest",
     "vue": "^3.5.16"
   }
 }

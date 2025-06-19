@@ -90,21 +90,6 @@ Also put a link to https://github-painter.vercel.app maybe.
 -->
 
 ---
-transition: slide-up
----
-
-<SlidevVideo class="mx-auto" width="500" controls>
-  <source src="./assets/weather_android.mp4" type="video/mp4" />
-  <p>
-    Your browser does not support videos. :(
-  </p>
-</SlidevVideo>
-
-<!--
-Idk if I'll keep this one tbh.
--->
-
----
 
 <img class="mx-auto" width="500" src="./assets/windy.png">
 

@@ -86,7 +86,6 @@ transition: slide-right
 This is my contributions graph on GitLab, which we use at FBK to manage our code and projects. You can find the same thing on other people's GitHub profiles. This, is also a time series. But instead of being a line on a graph, it is represented as a calendar heatmap. Here, the intensity of the color corresponds to the number of contributions made on that day.
 You can clearly see the periods of the year when I went on holiday.
 But why would someone choose to represent data like this instead of plotting it as a graph normally?
-Also put a link to https://github-painter.vercel.app maybe.
 -->
 
 ---
@@ -125,7 +124,6 @@ https://siebert-julien.github.io/time-series-analysis-python/
 
 <!--
 Now that you know what a time series is, what can you do with them? We're mainly going to focus on forecasting, that is, predicting what's going to happen in the future given past data. You can also do anomaly detection, which is trying to figure out when a part of a series doesn't fit in with the rest. This could be useful, for example, for removing outliers from your dataset.
-
 -->
 
 
@@ -174,6 +172,8 @@ I couldn't do it any better, so I stole this slide. This shows three ways a time
 
 ## Stationarity
 
+<br>
+
 <img class="mx-auto bg-white" width="400" src="./assets/stationarity.png">
 
 <div class="absolute left-30px bottom-0px">
@@ -182,7 +182,7 @@ https://wandb.ai/iamleonie/A-Gentle-Introduction-to-Time-Series-Analysis-Forecas
 </div>
 
 <!--
-The most important of the three is stationarity. A lot of models assume that a series is stationary. When the future is similar to the past, it is easier to forecast. If a series isn't stationary, you can always transform it until it is. So, with that, let's move to the Jupyter notebook and see how we can do this irl.
+The most important of the three is stationarity. A lot of models assume that a series is stationary. When the future is similar to the past, it is easier to forecast. If a series isn't stationary, you can always transform it until it is. Let's move to the Jupyter notebook and see how we can do this irl.
 -->
 
 ---
@@ -192,6 +192,6 @@ class: text-center
 
 # Learn More
 
-[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev)
+[GitHub](https://github.com/WebValley2025/timeseries-forecasting)
 
 <PoweredBySlidev mt-10 />

@@ -16,3 +16,11 @@ There is also a function to check if the series is stationary. I have no idea wh
 
 The p-value tells us if a test is statistically significant or not. Right now, the details of what this means don't matter too much. If the value is below 0.05, it means that the series is stationary. If not, it's not.
 In this case, the p-value is quite high, so we can say with certainity that the series is not stationary. Although we didn't need a computer to tell us that, we could see that with our own eyes. But, it's always a good idea to validate what you see, or rather, what you think you see.
+
+Get them to make the MAE as low as possible for like 20 min? Reward Switch 2 lol idk
+
+
+Make the series stationary by subtracting trends
+One slide about why time series stuff is useful to have and practical
+More information on p-test
+Add probabilistic models, LSTM

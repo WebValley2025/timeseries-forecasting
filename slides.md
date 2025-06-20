@@ -173,7 +173,6 @@ I couldn't do it any better, so I stole this slide. This shows three ways a time
 ---
 
 ## Stationarity
-The first step of any analysis is to transform the series to make it stationary.
 
 <img class="mx-auto bg-white" width="400" src="./assets/stationarity.png">
 
